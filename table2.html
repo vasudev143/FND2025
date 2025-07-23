@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table2{
+            border-collapse: collapse;
+            margin: 10px;
+        }
+        .table2_box{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td rowspan="2">Table 1</td>
+            <td colspan="2">Table 1</td>
+        </tr>
+        <tr class="table2_box" rowspan="2">
+            <!-- <td>table 2</td>
+            <td>table 2</td> -->
+            <td colspan="2">
+            <table border="1" class="table2">
+              <tr>
+                <td>Tbale 2</td>
+                <td>Tbale 2</td>
+              </tr>
+              <td>Table 2</td>
+              <td>Table 2</td>
+            </table>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td>table 2</td>
+            <td>table 2</td>
+        </tr> -->
+        <tr>
+            <td>Table 1</td>
+            <td colspan="2">Table 1</td>
+        </tr>
+    </table>
+</body>
+</html>
