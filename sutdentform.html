@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="succes.html">
+        <caption>Student Registration From</caption>
+        <br><br>
+        <label for="Fname">First Name</label>
+        <input type="text" id="Fname" name="firstname" placeholder="Enter First Name" required>
+        <br><br>
+        <label for="Lname">Last Name</label>
+        <input type="text" id="Lname" name="lastname" placeholder="Enter Last Name" required>
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="male" value="Male">Male
+        <input type="radio" name="female" value="Female">Female
+        <input type="radio" name="not" value="Not Specified">Not Specified
+        <br><br>
+        <label for="femail">Email</label>
+        <input type="email" name="email" placeholder="Enter Email" required>
+        <br><br>
+        <label for="fcontact">Contact</label>
+        <input type="tel" name="contact" placeholder="Enter Contact Number" pattern="[0-9]{10}" required>
+        <br><br>
+        <label for="fdob">Date of Birth</label>
+        <input type="date" name="dob" required>
+        <br><br>
+        <label for="fadress">Address</label>
+        <textarea name="address" id="address" placeholder="Enter the address"></textarea>
+        <br><br>
+        <label for="flangknown">Languages Known:</label>
+        <input type="checkbox" name="lang" value="English">English
+        <input type="checkbox" name="lang" value="Hindi">Hindi
+        <input type="checkbox" name="lang" value="Telugu">Telugu
+        <br><br>
+        <label for="fbranch">Branch</label>
+        <select name="branch" id="Branchsel">
+            <option value="CSE">CSE</option>
+            <option value="CSIT">CSIT</option>
+            <option value="ECE">ECE</option>
+            <option value="AIDS">AIDS</option>
+        </select>
+        <br><br>
+        <label for="fupload">Upload</label>
+        <input type="file" name="upload" id="fupload">
+        <br><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
